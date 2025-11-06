@@ -856,8 +856,8 @@ function setupSpaceEasterEggs() {
 
 function triggerSpaceEasterEgg() {
     // Create cosmic explosion effect
-    const cosmicIcons = ['🌟', '✨', '🚀', '🛸', '🌌', '⭐', '💫', '🔮'];
-    
+    const cosmicIcons = ['🌟', '🚀', '⚙️', '🪐', '🛩️', '🛸', '🌕', '🌍'];
+
     // Create central explosion
     const explosionCenter = document.createElement('div');
     explosionCenter.style.cssText = `
