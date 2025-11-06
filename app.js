@@ -5,7 +5,7 @@ class ParticleSystem {
     constructor() {
         this.container = document.getElementById('particles-container');
         this.particles = [];
-        this.maxParticles = window.innerWidth > 768 ? 50 : 25;
+        this.maxParticles = window.innerWidth > 768 ? 50 : 50;
         this.init();
     }
 
@@ -16,7 +16,7 @@ class ParticleSystem {
         
         // Responsive particle count
         window.addEventListener('resize', () => {
-            this.maxParticles = window.innerWidth > 768 ? 50 : 25;
+            this.maxParticles = window.innerWidth > 768 ? 50 : 50;
             this.adjustParticleCount();
         });
     }
@@ -413,9 +413,9 @@ class SpaceTypingEffect {
             'RPA Automation Architect',
             'Senior Automation Engineer', 
             'RPA Consultant',
-            'UiPath Advanced RPA Certification',
-	    'Automation Anywhere Certified',
-            'Intelligent Automation'
+            'UiPath Advanced RPA Certified',
+			'Automation Anywhere Certified',
+            'Intelligent Automation Specialist'
         ];
         this.currentPhraseIndex = 0;
         this.currentText = '';
