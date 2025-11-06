@@ -411,9 +411,11 @@ class SpaceTypingEffect {
         this.subtitle = document.querySelector('.hero-subtitle');
         this.phrases = [
             'RPA Automation Architect',
-            'Designing the Future of Automation', 
-            '20+ Years of Innovation Excellence',
-            'Bridging Technology & Business Solutions'
+            'Senior Automation Engineer', 
+            'RPA Consultant',
+            'UiPath Advanced RPA Certification',
+	    'Automation Anywhere Certified',
+            'Intelligent Automation'
         ];
         this.currentPhraseIndex = 0;
         this.currentText = '';
